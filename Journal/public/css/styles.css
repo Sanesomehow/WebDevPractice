@@ -1,7 +1,31 @@
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
+    color: #ffffff;
 }
+body{
+    background-color: #f0f0f0;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+p.navbar-brand a{
+    color: #9dda52 !important;
+}
+
+p.navbar-brand a:hover{
+    color: #2eac6d !important;
+    text-decoration: none;
+}
+
+.intro{
+    font-size: 18px;
+}
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -10,26 +34,34 @@
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    background-color: #3c2f3d;
+    color: #3c2f3d;
 }
-.navbar-nav  li a:hover {
-    color: #1abc9c !important;
+.navbar-nav li a:hover {
+    color: #2eac6d !important;
+}
+button{
+    background-color: #3c2f3d !important;
+}
+button:hover {
+    background-color: #2eac6d !important;
 }
 
 .footer-padding {
-	padding-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .footer {
-	position: absolute;
-	text-align: center;
-	bottom: 0;
-	width: 100%;
-	height: 60px;
-	background-color: #1abc9c;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #2eac6d;
 }
 
 .footer p {
-	margin-top: 25px;
-	font-size: 12px;
-  color: #fff;
+    margin-top: 25px;
+    font-size: 12px;
+    color: #fff;
 }
